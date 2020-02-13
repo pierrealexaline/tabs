@@ -35,15 +35,21 @@ and this just before the `</body>` tag :
 ### id
 
 `tabwrapper` div contenaire to wrap content inside
+
 `tab_linker` wrapper for links/button
+
 `tabs1` span for link/button
+
 `tab1`  div for content
 
 ### classes
 
 `tablinks` span for link/button
+
 `tabcontent` div for content
+
 `fade` only for effect (optional) 
+
 
 ## Options
 
@@ -65,6 +71,7 @@ just remove :
 * a remove a  div for content with id `tabX`
 
 ### Multiple tab
+
 just add a new tab structure with a div to wrape content 
 
 with a new id like this :
