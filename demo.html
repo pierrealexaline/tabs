@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Simple and responsive pure JS and CSS tabs</title> 
+        <link rel="stylesheet" href="tabs.css" /> 
+    </head>
+    <body>   
+        <div id="tabwrapper">
+            <div class="tab_linker">
+                <span id="tabs1" class="tablinks">HTML</span>
+                <span id="tabs2" class="tablinks">CSS</span>
+                <span id="tabs3" class="tablinks">JS</span>  
+            </div>
+            <div id="tab1" class="tabcontent fade">First tab ! ...</div>
+            <div id="tab2" class="tabcontent fade">... second tab ...</div> 
+            <div id="tab3" class="tabcontent fade"><p>...and last tab content ! </p></div>
+        </div> 
+        <script src="tabs.js"></script> 
+        <script> 
+            /* Launch function tabs ... define id tab wrapper */
+            tabs('tabwrapper'); 
+        </script> 
+    </body>
+</html>

@@ -1,0 +1,57 @@
+#tabwrapper {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin:0;
+}
+/* button */
+#tabwrapper span {
+    background-color: #eee;
+    color:#222;
+    display:inline-block;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    text-align:center;
+    text-decoration: none;
+    padding: 20px 0;
+    width:100%;
+    transition: 0.3s;
+    font-size: 17px;
+}
+#tabwrapper span:hover {
+    background-color: #eee;
+}
+#tabwrapper span.active {
+    background-color: #fff;
+}
+/*content*/
+.tabcontent { 
+    padding: 6px 12px 20px; 
+    border: none;
+    background-color: #fff;
+    display:none;
+    line-height:1.4;
+    transition: all 1s linear; 
+}  
+.tab_linker{
+    display:inline-block;
+    width:100%;
+    padding: 0 0 40px;
+}
+#tabwrapper span.active:after {
+    margin:2px 0 0 5px;
+    content: '  \2198';
+    color:#ccc;
+} 
+@media only screen and (min-width: 510px){
+    #tabwrapper {  
+    }
+    /*button*/
+    #tabwrapper span {   
+        padding: 14px 20px;
+        border:none;
+        border-right: 1px solid #ddd;
+        width:auto; 
+    }  
+}   
